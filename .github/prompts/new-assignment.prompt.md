@@ -2,6 +2,7 @@
 agent: agent
 description: Create a new programming homework assignment
 argument-hint: Provide assignment details
+model: GPT-4.1 (copilot)
 ---
 
 # Create New Programming Assignment
