@@ -67,6 +67,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "data-cleaning-preprocessing",
+      "title": "Data Cleaning & Preprocessing",
+      "description": "Learn to clean and preprocess real-world datasets in Python. Handle missing values, detect and treat outliers, and transform data for further analysis or modeling.",
+      "path": "assignments/data-cleaning-preprocessing",
+      "dueDate": "2026-03-21",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
