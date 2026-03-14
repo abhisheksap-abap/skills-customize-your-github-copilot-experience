@@ -1,47 +1,49 @@
-# 📘 Assignment: REST APIs with FastAPI
+# 📘 Assignment: Building REST APIs with FastAPI
 
 ## 🎯 Objective
 
-Learn to build RESTful APIs using the FastAPI framework in Python, focusing on routing, request handling, response formatting, and basic CRUD operations.
+Students will learn how to design and implement RESTful APIs using the FastAPI framework in Python. By the end of this assignment, students will be able to create endpoints, handle requests, and return responses in a modern web API.
 
 ## 📝 Tasks
 
-### 🛠️ Set Up Basic FastAPI Application
+### 🛠️ Create a Basic FastAPI Endpoint
 
 #### Description
-Create a basic FastAPI application with a root endpoint that returns a welcome message.
+Set up a FastAPI project and implement a simple endpoint that returns a welcome message.
 
 #### Requirements
 Completed program should:
+- Start a FastAPI server
+- Provide a `/welcome` endpoint
+- Return a JSON response with a welcome message
 
-- Import FastAPI and create an app instance
-- Define a GET endpoint at "/" that returns a JSON response with a welcome message
-- Run the server and verify the endpoint works
-
-### 🛠️ Implement CRUD Endpoints for Items
+### 🛠️ Implement CRUD Operations
 
 #### Description
-Add endpoints to perform Create, Read, Update, and Delete operations on a simple "item" resource.
+Expand your FastAPI app to support Create, Read, Update, and Delete operations for a resource (e.g., a list of books).
 
 #### Requirements
 Completed program should:
+- Implement endpoints for adding, retrieving, updating, and deleting items
+- Use appropriate HTTP methods (POST, GET, PUT, DELETE)
+- Return meaningful JSON responses
 
-- Define a Pydantic model for Item with fields like id, name, and description
-- Implement GET /items to retrieve all items
-- Implement POST /items to create a new item
-- Implement GET /items/{item_id} to retrieve a specific item
-- Implement PUT /items/{item_id} to update an item
-- Implement DELETE /items/{item_id} to delete an item
-
-### 🛠️ Add Request Validation and Error Handling
+### 🛠️ Add Input Validation and Error Handling
 
 #### Description
-Enhance the API with input validation using Pydantic and proper error responses.
+Enhance your API by validating input data and handling errors gracefully.
 
 #### Requirements
 Completed program should:
+- Use FastAPI's Pydantic models for input validation
+- Return error messages for invalid input or failed operations
+- Document endpoints using FastAPI's automatic docs
 
-- Use Pydantic models for request bodies with validation
-- Handle cases where an item is not found (return 404)
-- Ensure proper HTTP status codes for different operations
-- Add basic error messages for invalid requests
+---
+
+**Starter Code:** See `starter-code.py` for a basic FastAPI app scaffold.
+
+**Due Date:** March 21, 2026
+
+**Attachments:**
+- starter-code.py
