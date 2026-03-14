@@ -56,7 +56,7 @@
     {
       "id": "fastapi-rest-apis",
       "title": "REST APIs with FastAPI",
-      "description": "Building RESTful APIs using the FastAPI framework",
+      "description": "Building RESTful APIs using the FastAPI framework. Students will create endpoints, implement CRUD operations, and add input validation using FastAPI and Pydantic.",
       "path": "assignments/fastapi-rest-apis",
       "dueDate": "2026-03-21",
       "attachments": [

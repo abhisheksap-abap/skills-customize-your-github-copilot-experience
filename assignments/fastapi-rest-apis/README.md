@@ -2,7 +2,7 @@
 
 ## 🎯 Objective
 
-Students will learn how to design and implement RESTful APIs using the FastAPI framework in Python. By the end of this assignment, students will be able to create endpoints, handle requests, and return responses in a modern web API.
+Build and deploy RESTful APIs using the FastAPI framework in Python. Students will learn to create endpoints, handle requests, validate input, and manage resources in a modern web API.
 
 ## 📝 Tasks
 
