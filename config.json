@@ -52,10 +52,18 @@
           "file": "starter-code.py",
           "type": "python"
         },
+    },
+    {
+      "id": "fastapi-rest-apis",
+      "title": "REST APIs with FastAPI",
+      "description": "Building RESTful APIs using the FastAPI framework",
+      "path": "assignments/fastapi-rest-apis",
+      "dueDate": "2026-03-21",
+      "attachments": [
         {
-          "name": "Sample Dataset",
-          "file": "data.csv",
-          "type": "csv"
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
         }
       ]
     }
